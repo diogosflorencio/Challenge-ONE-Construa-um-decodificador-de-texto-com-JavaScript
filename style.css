@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@font-face {
+    font-family: "sangue 1";
+    src: url(font/Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+@font-face {
+    font-family: "sangue 2";
+    src: url(font/shlop\ rg.otf);
+}
+@font-face {
+    font-family: "sangue 4";
+    src: url(font/Them\ People.ttf);
+}
+
+manin{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.fundo::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('imagens/q.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(2px);
+    z-index: -1;
+    background-position: center center;
+}
+
+.imagem-header{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 60px;
+    left: 40px;
+    top: 40px;
+    border-radius: 50%;
+}
+
+.digite {
+    position: absolute;
+    margin: 7% 0 0 10%;
+    padding: 10px;
+    border: 2px solid rgb(228, 220, 184);
+    background-color: rgba(231, 220, 172, 0.87);
+    border-radius: 20px;
+    width: 450px;
+    height: 650px;
+}
+.digitado {
+    position: absolute;
+    margin: 7% 10% 0 65%;
+    padding: 10px;
+    border: 2px solid rgb(228, 220, 184);
+    background-color: rgba(231, 220, 172, 0.87);
+    border-radius: 20px;
+    width: 450px;
+    height: 650px;
+}
+
+textarea{
+    font-family: 'Harry Potter', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    color: #1f1401;
+    text-transform: lowercase;
+    border: none;
+    background-color: transparent;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.aviso{
+    position: fixed;
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 12px;
+    color: #495057;
+    bottom: 165px; 
+    left: 12%;
+
+    padding: 5px;
+
+}
+.imagem-aviso{
+    width: 20px;
+    position: fixed;
+    bottom: 162px; 
+    left: 10%;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #d8c30846;
+
+
+}
+
+.botoes{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: fixed;
+    bottom: 100px; 
+    left: 10%;
+
+}
+
+.criptografar{
+    padding: 15px;
+    width: 225px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.descriptografar{
+    padding: 15px;
+    width: 225px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.botao-copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    position: absolute;
+
+    left: 65%;
+    bottom: 100px; 
+}
+
+.btn-copiar{
+    padding: 15px;
+    width: 475px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;  
+}
+.creditos{
+    position: absolute;
+    bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.8;
+    text-align: center;
+    left: 42%;
+
+    
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="fundo">
+    <!-- header com minha foto e da alura -->
+    <header>
+        
+        <img class="imagem-header" src="imagens/logo.jpg" alt="logo, um gif de uma lua nas nuvens desenhada com estrelinhas de fundo">
+    
+    </header>
+    <!-- conteudo principal-->
+    <main>
+        <!-- div da parte onde digita o texto-->
+        <section class="digitando">
+            <!-- area especifica para digitar-->
+            <textarea class="digite" name="caixa de texto" id="texto-digitando" cols="35" rows="10" placeholder="Escreva aqui suas ideias e as proteja com a criptomagia"></textarea>
+            <!--divisão de aviso-->
+            <div class="texto-de-aviso">
+                <img class="imagem-aviso" src="imagens/atencao.png" alt="icone de raio para chamar atenção sobre a regra de permitir apenas letras menusculas e sem acento">
+                <p class="aviso">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <!--botões para criptografar ou descriptografar o texto-->
+            <div class="botoes">
+                <button class="criptografar">Criptografar</button>
+                <button class="descriptografar">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section>
+             <!-- area especifica para digitar-->
+             <textarea class="digitado" name="caixa de texto" id="texto-digitando" cols="35" rows="10"></textarea>
+             <!--botão para copiar o texto-->
+             <div class="botao-copiar">
+                 <button class="btn-copiar">Copiar</button>
+             </div>
+ 
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="creditos">Conjurado por <a href="https://www.linkedin.com/in/diogosflorencio/">Diogo S. Florêncio</a> | Curso Alura ONE - Oracle </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
